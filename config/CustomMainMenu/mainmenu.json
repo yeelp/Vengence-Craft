@@ -1,0 +1,193 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "vcraft:vcraft.png",
+            "posX" : -135,
+            "posY" : 27,
+            "width" : 275,
+            "height" : 55,
+            "imageWidth" : 471,
+            "imageHeight" : 106,
+            "alignment" : "top_center"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "posX" : 2,
+            "posY" : 96,
+            "width" : 98,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 176,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : 80,
+            "posY" : 120,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright Mojang AB. Do not distribute!",
+            "hoverText" : "§nCopyright Mojang AB. Do not distribute!",
+            "posX" : -197,
+            "posY" : -10,
+            "color" : -1,
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
+        },
+        
+        "fml":
+        {
+            "text" : "",
+            "posX" : 2,
+            "posY" : -40,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 100,
+            "posY" : 80,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : ["Speme!", "Hear me roar!", "VengenceCraft!", "Attack!", "Custom splash text? In MY Minecraft?", "Yay! You're here!", "Powered by Forge!", "Variety is the Spice of Life!", "Check out the Nether!", "Check out the Aether!", "Check out the Twilight Forest!", "Check out Midnight!", "Check out the End!", "Got 'em bois!", "Luigi! What even IS this?", "Now with dragons!", "Now (mostly) without hoes!", "That one, unblinking red eye...", "Checkmate!", "Ruthless!", "Exodia! Obliterate!!!!", "Popular among the females. ;)", "Popular with the guys. ;)", "Chuxldoystia!", "Don't stay up too late!", "Load my splash!", "Sleep with one eye open.", "Winter is coming...", "Quality quips!", "QPU aligned!", "Building up for twelve hours!", "Bring it on!", "Don't check out Limbo...", "What could possibly go wrong?", "Hi, how are ya?", "Balls to you!", "LMFAO!", "Do it yourself!", "Up, up, down, down, left, right, left, right, B, A, START!", "Go north, young player.", "Save the planet!", "Quizzical questions!", "Another quiz!", "Pretty baller!", "'&' is a letter too!", "An odyssey you oughta see!", "What's up, doc?"]
+        },
+        
+        "background":
+        {
+	    "image": "",
+            "slideshow":
+            {
+                "images":
+                [
+                    "vcraft:mainmenu/01.png",
+                    "vcraft:mainmenu/02.png",
+                    "vcraft:mainmenu/03.png",
+                    "vcraft:mainmenu/04.png",
+                    "vcraft:mainmenu/05.png",
+                    "vcraft:mainmenu/06.png",
+                    "vcraft:mainmenu/07.png",
+                    "vcraft:mainmenu/08.png",
+                    "vcraft:mainmenu/09.png",
+                    "vcraft:mainmenu/10.png",
+                    "vcraft:mainmenu/11.png",
+                    "vcraft:mainmenu/12.png",
+                    "vcraft:mainmenu/13.png",
+                    "vcraft:mainmenu/14.png",
+                    "vcraft:mainmenu/15.png",
+                    "vcraft:mainmenu/16.png",
+                    "vcraft:mainmenu/17.png",
+                    "vcraft:mainmenu/18.png",
+                    "vcraft:mainmenu/19.png",
+                    "vcraft:mainmenu/20.png",
+                    "vcraft:mainmenu/21.png",
+                    "vcraft:mainmenu/22.png",
+                    "vcraft:mainmenu/23.png",
+                    "vcraft:mainmenu/24.png",
+                    "vcraft:mainmenu/25.png",
+                    "vcraft:mainmenu/26.png",
+                    "vcraft:mainmenu/27.png",
+                    "vcraft:mainmenu/28.png",
+                    "vcraft:mainmenu/29.png",
+                    "vcraft:mainmenu/30.png",
+                    "vcraft:mainmenu/31.png",
+                    "vcraft:mainmenu/32.png",
+                    "vcraft:mainmenu/33.png",
+                    "vcraft:mainmenu/34.png",
+                    "vcraft:mainmenu/35.png",
+                    "vcraft:mainmenu/36.png",
+                    "vcraft:mainmenu/37.png"
+                ],
+            "displayDuration": 50,
+            "fadeDuration": 70,
+            "shuffle": true,
+            "mode": "fill"
+            }
+        }
+    }
+}

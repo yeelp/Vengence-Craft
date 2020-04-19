@@ -1,0 +1,25 @@
+{
+  "materialMappings": {
+    "stygium_molten": 14,
+    "caliginum_block": 5,
+    "stygium_ingot": 12,
+    "quartz_molten": 20,
+    "sinisteel_ingot": 19,
+    "sinisteel_nugget": 16,
+    "sinisteel_block": 18,
+    "vitalium_ingot": 7,
+    "stygium_nugget": 13,
+    "caliginum_ingot": 2,
+    "nagrilite_molten": 0,
+    "sinisteel_molten": 17,
+    "vitalium_nugget": 8,
+    "caliginum_nugget": 3,
+    "ironwood_molten": 11,
+    "vitalium_block": 10,
+    "tenebrum_molten": 1,
+    "stygium_block": 15,
+    "life_force_molten": 6,
+    "vitalium_molten": 9,
+    "caliginum_molten": 4
+  }
+}
