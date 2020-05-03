@@ -154,6 +154,7 @@ recipes.remove(<thermalfoundation:material:24>);
 recipes.remove(<scalingfeast:heartyshank>);
 //Don't touch me!
 //#Add
+recipes.addShaped(<razak_demonmod:cursed_pumpkin>, [[<razak_demonmod:darkened_gem>, <lycanitesmobs:hellfireballcharge>, <razak_demonmod:darkened_gem>],[<contenttweaker:material_part:16>, <minecraft:pumpkin>, <contenttweaker:material_part:16>], [<razak_demonmod:darkened_gem>, <lycanitesmobs:hellfireballcharge>, <razak_demonmod:darkened_gem>]]);
 recipes.addShaped(<scalingfeast:heartyshank>, [[<harvestcraft:creeperwingsitem>, <tconstruct:materials:13>, <harvestcraft:creeperwingsitem>],[<tconstruct:materials:12>, <scalingfeast:ironapple>, <tconstruct:materials:12>], [<ore:foodTurkeycooked>, <tconstruct:materials:13>, <ore:foodTurkeycooked>]]);
 recipes.addShaped(<roughtweaks:medikit>, [[<ore:ingotAluminum>, <lycanitesmobs:cleansingcrystal>, <ore:ingotAluminum>],[<roughtweaks:salve>, <roughtweaks:plaster>, <roughtweaks:bandage>], [<ore:ingotAluminum>, <lycanitesmobs:immunizer>, <ore:ingotAluminum>]]);
 recipes.addShapeless(<roughtweaks:bandage>, [<roughtweaks:salve>,<ore:string>,<ore:wool>,<ore:string>,<minecraft:paper>]);
