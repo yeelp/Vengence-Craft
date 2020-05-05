@@ -22927,6 +22927,2791 @@
           }
         }
       }
+    },
+    "261:10": {
+      "questID:3": 261,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:rotten_flesh",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Thinning the Horde",
+          "desc:8": "Slay each Zombie variant 50 times."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {},
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:zombie",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 35.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "8:10": {
+                "Base:6": 0.09518700268469812,
+                "Name:8": "zombie.spawnReinforcements"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:zombie_villager",
+            "ConversionTime:3": -1,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8542476679653993633,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 4.839406,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ProfessionName:8": "minecraft:farmer",
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "Profession:3": 0,
+            "UUIDMost:4": -7230442927765436904,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:zombie_villager",
+          "subtypes:1": 1
+        },
+        "2:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 35.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "8:10": {
+                "Base:6": 0.0024800013353952544,
+                "Name:8": "zombie.spawnReinforcements"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:husk",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6485667228040577772,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 4.728929,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 8431470391191948230,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:husk",
+          "subtypes:1": 1
+        },
+        "3:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 35.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.attackDamage"
+              },
+              "8:10": {
+                "Base:6": 0.0,
+                "Name:8": "zombie.spawnReinforcements"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "quark:dweller",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5465296883236489806,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 3.9932122,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -3973492766099616170,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "CanBreakDoors:1": 0,
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "quark:dweller",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 2,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 100,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "262:10": {
+      "questID:3": 262,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:bone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Bone to Pick",
+          "desc:8": "Slay each Skeleton variant 50 times."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:skeleton",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6272901828217761046,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 2.1127226,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 9064377803949622525,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:skeleton",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:wither_skeleton",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7742534122520273530,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 3.677034,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 5224075481183112524,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:wither_skeleton",
+          "subtypes:1": 1
+        },
+        "2:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:stray",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7015879148353782045,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 3.7223945,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 8840784788547257886,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:stray",
+          "subtypes:1": 1
+        },
+        "3:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "quark:ashen",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -4948343123004526437,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 6.04952,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -865298528450887326,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "quark:ashen",
+          "subtypes:1": 1
+        },
+        "4:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.31,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 9.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "razak_demonmod:demon",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -5307874402825531777,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 0.11028056,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -3024943861343630987,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "razak_demonmod:demon",
+          "subtypes:1": 1
+        },
+        "5:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.25,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "twilightforest:skeleton_druid",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -4696388161743428861,
+            "Health:5": 20.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 4.457043,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 9057602050563656953,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "twilightforest:skeleton_druid",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 3,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 100,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "263:10": {
+      "questID:3": 263,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:spider_eye",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Arachnophobic",
+          "desc:8": "Slay each Spider variant 50 times"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30000001192092896,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:spider",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8998745924845677634,
+            "Health:5": 16.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 4.804525,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -5840875940818302655,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:spider",
+          "subtypes:1": 1
+        },
+        "1:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 1,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 12.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30000001192092896,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "minecraft:cave_spider",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6083243737012276551,
+            "Health:5": 12.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 0.78694147,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 1051800225884949176,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:cave_spider",
+          "subtypes:1": 1
+        },
+        "2:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 2,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 50.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.45000001788139343,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 24.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 4.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "natura:heatscarspider",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7451166420078123826,
+            "Health:5": 50.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 5.498008,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 4089827031625255311,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "natura:heatscarspider",
+          "subtypes:1": 1
+        },
+        "3:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 3,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30000001192092896,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "natura:babyheatscarspider",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -8430274115020915903,
+            "Health:5": 16.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 6.069735,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 3223417225104017357,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "natura:babyheatscarspider",
+          "subtypes:1": 1
+        },
+        "4:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 4,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30000001192092896,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 2.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "twilightforest:hedge_spider",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6552938404795323255,
+            "Health:5": 16.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 6.1044745,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -3956446096515379458,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "twilightforest:hedge_spider",
+          "subtypes:1": 1
+        },
+        "5:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 5,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 3.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30000001192092896,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 1.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "twilightforest:swarm_spider",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "SpawnMore:1": 1,
+            "UUIDLeast:4": -7278958213833897207,
+            "Health:5": 3.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 1.1083394,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -4595134478091531700,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "twilightforest:swarm_spider",
+          "subtypes:1": 1
+        },
+        "6:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 6,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 7.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.30000001192092896,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 16.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 4.0,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "twilightforest:tower_broodling",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "SpawnMore:1": 1,
+            "UUIDLeast:4": -6927722863517416765,
+            "Health:5": 7.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 3.2836728,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": 4603229072997697082,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "twilightforest:tower_broodling",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 4,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 100,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "264:10": {
+      "questID:3": 264,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "razak_demonmod:netherium_staff",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Not Quite Netherite",
+          "desc:8": "Slay the Nether Lord 50 times."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 380.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 1.2,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.245,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 24.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 9.5,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "razak_demonmod:nether_lord",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -6398593365997887013,
+            "Health:5": 380.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 2.9296951,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -8277721771441044458,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "razak_demonmod:nether_lord",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 4,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 100,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "265:10": {
+      "questID:3": 265,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "razak_demonmod:darkened_gem",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Respect Your Elders",
+          "desc:8": "Slay 50 Elder Mages"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "HurtByTimestamp:3": 0,
+            "ForgeData:10": {},
+            "Attributes:9": {
+              "0:10": {
+                "Base:6": 30.0,
+                "Name:8": "generic.maxHealth"
+              },
+              "1:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.knockbackResistance"
+              },
+              "2:10": {
+                "Base:6": 0.23000000417232513,
+                "Name:8": "generic.movementSpeed"
+              },
+              "3:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armor"
+              },
+              "4:10": {
+                "Base:6": 0.0,
+                "Name:8": "generic.armorToughness"
+              },
+              "5:10": {
+                "Base:6": 1.0,
+                "Name:8": "forge.swimSpeed"
+              },
+              "6:10": {
+                "Base:6": 20.0,
+                "Name:8": "generic.followRange"
+              },
+              "7:10": {
+                "Base:6": 4.5,
+                "Name:8": "generic.attackDamage"
+              }
+            },
+            "Invulnerable:1": 0,
+            "FallFlying:1": 0,
+            "PortalCooldown:3": 0,
+            "AbsorptionAmount:5": 0.0,
+            "FallDistance:5": 0.0,
+            "DeathTime:2": 0,
+            "ForgeCaps:10": {
+              "tinkertoolleveling:entityxp:9": {},
+              "dsurround:data:10": {
+                "a:1": 0,
+                "f:1": 0
+              },
+              "llibrary:extendedentitydatacapability:10": {
+                "Ice And Fire - Player Property Tracker:10": {
+                  "DismountedDragon:1": 0,
+                  "GauntletDamage:3": 0
+                },
+                "Ice And Fire - Siren Property Tracker:10": {
+                  "CharmedBySiren:1": 0,
+                  "SirenID:3": 0
+                },
+                "Ice And Fire - Frozen Property Tracker:10": {
+                  "TicksUntilUnfrozen:3": 0,
+                  "IsFrozen:1": 0
+                },
+                "Ice And Fire - Chain Property Tracker:10": {
+                  "ConnectedEntities:9": {}
+                },
+                "Ice And Fire - Stone Property Tracker:10": {
+                  "StoneBreakLvl:3": 0,
+                  "TurnedToStone:1": 0
+                }
+              },
+              "dsurround:entityfx:10": {},
+              "twilightforest:cap_shield:10": {
+                "permshields:3": 0,
+                "tempshields:3": 0
+              },
+              "lycanitesmobs:iextendedentity:10": {},
+              "dsurround:speech:10": {}
+            },
+            "HandDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085
+            },
+            "PersistenceRequired:1": 0,
+            "id:8": "razak_demonmod:ranged_demon",
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Leashed:1": 0,
+            "UUIDLeast:4": -7852772780422810629,
+            "Health:5": 30.0,
+            "LeftHanded:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 687,
+            "Rotation:9": {
+              "0:5": 5.8903995,
+              "1:5": 0.0
+            },
+            "UpdateBlocked:1": 0,
+            "HandItems:9": {
+              "0:10": {},
+              "1:10": {}
+            },
+            "ArmorDropChances:9": {
+              "0:5": 0.085,
+              "1:5": 0.085,
+              "2:5": 0.085,
+              "3:5": 0.085
+            },
+            "UUIDMost:4": -8140554233560217662,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ArmorItems:9": {
+              "0:10": {},
+              "1:10": {},
+              "2:10": {},
+              "3:10": {}
+            },
+            "CanPickUpLoot:1": 0,
+            "HurtTime:2": 0
+          },
+          "damageType:8": "",
+          "required:3": 50,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "razak_demonmod:ranged_demon",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 2,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 100,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "266:10": {
+      "questID:3": 266,
+      "preRequisites:11": [
+        260
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "razak_demonmod:netherium_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Hellish Resilience",
+          "desc:8": "Netherium is a material you can get by defeating the Nether Lord. This powerful material can only be used for armor, but packs some of the highest defense in the game. You can summon the Nether Lord like you would summon an Iron Golem, but using a Cursed Pumpkin and 4 Obsidian."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "razak_demonmod:netherium_ingot",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 75,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -23140,6 +25925,41 @@
           "x:3": 144,
           "y:3": -84,
           "id:3": 230,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": 144,
+          "y:3": 24,
+          "id:3": 261,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 24,
+          "id:3": 262,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 24,
+          "id:3": 263,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": 24,
+          "id:3": 264,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": 24,
+          "id:3": 265,
           "sizeY:3": 24
         }
       },
@@ -23511,6 +26331,13 @@
           "x:3": -120,
           "y:3": 180,
           "id:3": 260,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": 216,
+          "id:3": 266,
           "sizeY:3": 24
         }
       },
